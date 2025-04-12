@@ -10,3 +10,13 @@
     padding: 0;
     font-family: Playfair Display;
 }
+
+/* ROOT VARIABLES */
+:root{
+    --primary-color: #333;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+body{
+    background-color: #2B2B2B;
+}
