@@ -1,0 +1,12 @@
+/* CSS BY NAME [Ethan Consolini] */
+
+/* IMPORTED FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Playfair Display;
+}
