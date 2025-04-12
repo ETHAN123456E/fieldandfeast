@@ -18,7 +18,10 @@
 
 /* GLOBAL STYLES (mobile first/small) */
 body{
-    background-color: #2B2B2B;
+    background-color: #1F2A44;
+}
+nav{
+    background-color: #E5C185;
 }
 
 /* MEDIA QUERY (medium) */
