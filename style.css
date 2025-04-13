@@ -39,10 +39,10 @@ p{
     line-height: 1.6;
 }
 header{
-    color: white;
-    align-content: center;
+    color: var(--soft-white);
     text-align: center;
-    background-color: #1F2A44;
+    background-color: var(--midnight-blue);
+    padding: 1rem 0 0.5rem;
 }
 header p{
     padding-bottom: 1rem;
