@@ -14,7 +14,14 @@
 
 /* ROOT VARIABLES */
 :root{
-    --primary-color: #333;
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+
+    
 }
 
 /* GLOBAL STYLES (mobile first/small) */
@@ -23,13 +30,13 @@ html{
 }
 body{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: var(--max-width);
     padding: 1rem 0;
-    background-color: #1F2A44;
+    background-color: var(--midnight-blue);
 }
 p{
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 0 2%;
+    line-height: 1.6;
 }
 header{
     color: white;
@@ -64,12 +71,31 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 1rem;
-    padding: 0.5 rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 }
 main{
     background-color: white;
     margin: 0 auto;
+}
+section{
+    margin-bottom: 2rem;
+}
+#Offerings section{
+    background-color: #76885B;
+    color: white;
+}
+#Gallery img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+#Gallery div{
+    background-color: #76885B;
+    color: white;
+    padding: 2rem;
+    display: grid;
 }
 button{
     display: block;
