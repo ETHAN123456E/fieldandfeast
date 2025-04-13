@@ -119,14 +119,25 @@ section#AboutUs{
 }
 #Gallery{
     background-color: var(--soft-white);
+    padding: 2rem 1rem;
+    text-align: center;
 }
-#Gallery img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 0.5rem;
+#Gallery h2{
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
 }
-#Gallery div{
+#Gallery p{
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+}
+.GalGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.GalText{
     padding: 2rem;
     display: grid;
     grid-template-columns: 1fr;
