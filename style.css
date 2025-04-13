@@ -155,6 +155,7 @@ section#AboutUs{
     grid-template-columns: 1fr;
     gap: 1.5rem;
     max-width: 1000px;
+    box-shadow: 0 0 10px var(--dark-charcoal);
 }
 #Gallery img{
     max-width: 100%;
