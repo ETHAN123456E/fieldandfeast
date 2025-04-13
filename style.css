@@ -23,6 +23,9 @@ html{
 }
 body{
     background-color: #1F2A44;
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 1200px;
 }
 header{
     color: white;
@@ -30,6 +33,14 @@ header{
 nav{
     background-color: #E5C185;
     color: #1F2A44;
+}
+nav ul{
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5 rem 0;
 }
 
 /* MEDIA QUERY (medium) */
