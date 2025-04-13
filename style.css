@@ -25,6 +25,7 @@ body{
     margin: 0 auto;
     max-width: 1200px;
     padding: 1rem 0;
+    background-color: #1F2A44;
 }
 p{
     padding-left: 2%;
@@ -36,9 +37,21 @@ header{
     text-align: center;
     background-color: #1F2A44;
 }
+header p{
+    padding-bottom: 1rem;
+}
 h1{
     font-size: 2rem;
     margin-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+h2{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+nav, main{
+    margin-left: 0;
+    margin-right: 0;
 }
 nav{
     background-color: #E5C185;
@@ -56,8 +69,24 @@ nav ul{
 }
 main{
     background-color: white;
+    margin: 0 auto;
 }
-
+button{
+    display: block;
+    margin: 0 auto 2rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #76885B;
+}
+footer{
+    text-align: center;
+    font-size: 0.9rem;
+    color: white;
+    padding: 2rem;
+}
 /* MEDIA QUERY (medium) */
 
 @media (min-width:600px){
